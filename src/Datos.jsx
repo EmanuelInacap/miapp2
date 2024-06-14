@@ -1,7 +1,7 @@
 function Datos(props){
     const {nombre,edad,apellido}=props.alumnos
     return(
-        <h1>Hola {nombre}</h1>
+        <h1>Hola {nombre} {apellido} {edad}</h1>
     )
     
 }
